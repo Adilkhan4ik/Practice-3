@@ -34,3 +34,14 @@ class People:
 d1=People(4,"Play volleyball")
 print(d1.grade)
 print(d1.hobby)
+
+class Family:
+   def __init__(self,name,age):
+      self.name = name
+      self.age = age
+
+f1=Family("Julietta",45)
+print(f1.name)
+print(f1.age)
+
+      
